@@ -2,6 +2,7 @@
 define('__ROOTPATH__', __DIR__);
 require_once ('App/Controller/Controller.php');
 require_once ('App/Controller/PageController.php');
+require_once ('App/Controller/BookController.php');
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -12,4 +13,4 @@ $controller = new Controller();
 $controller->route();
 ?>
 
-<!-- Reprendre au replay 4 -->
+<!-- Reprendre au replay 5 -->
